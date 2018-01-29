@@ -25,6 +25,6 @@ public class DBPortal {
     private static Session session = factory.getCurrentSession();
 
     public static void registerUser(){
-        
+
     }
 }

@@ -11,9 +11,8 @@ import javax.ws.rs.core.MediaType;
  * Created by enfet on 2018-01-29.
  */
 
-//@Path("/users")
+@Path("/users")
 public class UsersEntryPoint {
-/*
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
@@ -21,5 +20,4 @@ public class UsersEntryPoint {
         UserRest returnValue = new UserRest();
     }
 
-    */
 }
